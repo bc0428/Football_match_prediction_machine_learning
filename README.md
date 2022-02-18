@@ -14,7 +14,7 @@ Classification algorithms from python package--scikitlearn were used to classify
 | ------------------- | ------------------- | ------------- | ---------------------- |
 | 0.53 | 0.575 | 0.477 | 0.577 |</br></br>
 
-</br><h3> Total goals in a prediction </h3>
+</br><h3> Total goals in a match prediction </h3>
 Regression algorithms also from scikitlearn were used to predict total goals in a match. Results were evaluated using mean squared error:</br>
 
 | Polynomial Regression | Support Vector | 
