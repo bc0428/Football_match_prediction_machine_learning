@@ -11,10 +11,6 @@ data = pd.read_csv('CSV FILE')
 y = data.iloc[:, 5:6].values
 x = data.iloc[:, [1,2,3,4]].values
 
-# # one hot encoder results in lower accuracy
-# ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [0])], remainder='passthrough')
-# y = np.array(ct.fit_transform(y))
-
 
 # label encoder
 le = LabelEncoder()
