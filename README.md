@@ -3,7 +3,7 @@ Using machine learning algorithms to predict football match result and total goa
 </br></br></br>
 
 <h2> Background </h2>
-This project aims at investigating the potential of using betting odds as a predictive factor in football matches. Dataset of English Premier League from 2016 to Feb 2022 was obtained from (https://www.football-data.co.uk/data.php/) and being used for training, validation and testing.
+This project aims at investigating the potential of using betting odds as a predictive factor in football matches. Dataset of English Premier League from 2016 to Feb 2022 was obtained from [here](https://www.football-data.co.uk/data.php/) and being used for training, validation and testing.
 
 </br><h2> Data Cleaning </h2>
 The 6-yaers-worth of data was first cleaned using mySQL. Selected features of each matches are: odds for home, away to win, draw, over and under 2.5 goals; home win index (odds of away win/home win), over 2.5 goals index (odds of under 2.5 goals/over 2.5 goals), goal difference, shots on target difference and total goals.
